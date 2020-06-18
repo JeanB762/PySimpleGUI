@@ -5,8 +5,8 @@ class TelaPython:
 
     # Layout
     layout = [
-      [sg.Text('Nome'), sg.Input()],
-      [sg.Text('Idade'), sg.Input()],
+      [sg.Text('Nome', size=(5, 0)), sg.Input(size=(15, 0))],
+      [sg.Text('Idade', size=(5,0)), sg.Input(size=(15, 0))],
       [sg.Button('Enviar Dados')]
     ]
 
@@ -21,3 +21,4 @@ class TelaPython:
 
 tela = TelaPython()
 tela.Iniciar()
+ 
