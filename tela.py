@@ -7,6 +7,8 @@ class TelaPython:
     layout = [
       [sg.Text('Nome', size=(5, 0)), sg.Input(size=(15, 0))],
       [sg.Text('Idade', size=(5,0)), sg.Input(size=(15, 0))],
+      [sg.Text('Provedores de Email:')],
+      [sg.Checkbox('Gmail'), sg.Checkbox('Outlook'), sg.Checkbox('Yahoo')],
       [sg.Button('Enviar Dados')]
     ]
 
